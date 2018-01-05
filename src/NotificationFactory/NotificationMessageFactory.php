@@ -38,8 +38,7 @@ class NotificationMessageFactory
         string $channel = null,
         string $username = null,
         string $icon = null
-    ): NotificationInterface
-    {
+    ): NotificationInterface {
         $message = new NotificationMessage($this->uri, $text);
         $message->setChannel($channel);
         $message->setUsername($username);
