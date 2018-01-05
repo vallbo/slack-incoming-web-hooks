@@ -1,5 +1,9 @@
 # Slack Incoming WebHooks Messages
 
+## Incoming web hooks help
+
+Help for Slack Web Hook App: <https://api.slack.com/incoming-webhooks>
+
 ## Usage example
 
 ```php
